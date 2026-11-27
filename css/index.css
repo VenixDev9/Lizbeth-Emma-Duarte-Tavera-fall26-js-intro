@@ -1,0 +1,104 @@
+body {
+  background-color: #add8e6;
+  color: #1a1a2e;
+  font-family: "Segoe UI", Sans-serif;
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2 {
+  color: #0077be;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.8rem;
+}
+
+section {
+  padding: 2rem;
+  margin: 1rem 0;
+}
+
+#About {
+  text-align: center;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  background-color: #16213e;
+  padding: 1rem;
+  z-index: 100;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 1.5rem;
+}
+
+nav a {
+  color: #add8e6;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+#Experience ul {
+  list-style: none;
+}
+
+#Experience li {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  background-color: #e8f4fd;
+  border-radius: 8px;
+}
+
+#Experience .Experience-information {
+  flex: 1;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+#Experience .date {
+  flex: 0 0 auto;
+  color: #555;
+}
+
+#Experience .description {
+  flex-basis: 100%;
+  margin-top: 0.5rem;
+}
+
+#Connect ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 1.5rem;
+}
+
+#Connect a {
+  color: #0077be;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+#Connect a:hover {
+  text-decoration: underline;
+}
